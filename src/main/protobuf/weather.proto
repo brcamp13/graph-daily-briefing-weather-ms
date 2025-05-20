@@ -15,10 +15,10 @@ message WeatherRequest {
 }
 
 message WeatherResponse {
-  float temperature = 1;
-  float precipitation = 2;
+  double temperature = 1;
+  double precipitation = 2;
   int32 relativeHumidity = 3;
-  float windSpeed = 4;
+  double windSpeed = 4;
   int32 windDirection = 5;
-  float windGusts = 6;
+  double windGusts = 6;
 }
